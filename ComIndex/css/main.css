@@ -11,20 +11,7 @@ address,cite,code,em,th {font-weight:normal; font-style:normal;}
 #top{
 	width: 100%;
 	height: 27px;
-	background-image: url(../img/content_bg.gif);
-}
-
-#top_content{
-	width: 1000px;
-	height: 27px;
-	margin: 0 auto;
-}
-
-#top_content li{
-	float: right;
-	margin-right: 20px;
-	line-height: 27px;
-	list-style-image: url(../img/arrow.jpg);
+	background: url(../img/content_bg.gif) repeat-x;
 }
 
 #wamp{
@@ -32,28 +19,124 @@ address,cite,code,em,th {font-weight:normal; font-style:normal;}
 	margin: 0 auto;
 }
 
+#top_content{
+	width: 1000px;
+	line-height: 27px;
+	margin: 0 auto;
+}
+
+#top_content li{
+	float: right;
+	margin-right: ; 20px;
+	line-height: 27px;
+	list-style-image: url(../img/arrow.jpg);
+	width: 70px;
+}
+
+#top_content li:link,#top_content li:visited{
+	color: #F5F5F5;
+}
+
+#top_content li:hover,#top_content li:active{
+	color: #DC143C;
+}
+
 #logo{
 	width: 100%;
-	background-color: white;
 	height: 80px;
+	background-color: white;
 }
 
 #logo_left{
 	float: left;
 	width: 300px;
+	display: inline;
 }
 #logo_right{
 	float: right;
 	width: 200px;
+	height: 30px;
+	margin-top: 27px;
 }
 
 #logo_right img{
-	margin-top: 30px;
-	vertical-align:middle
+	vertical-align:middle;
+	margin-right: 10px;
 }
 
 .tel{
-	font-size: 16px;
+	font-size: 18px;
 	color: crimson;
 	font-family: "微软雅黑";
 }
+
+#nav{
+	height: 40px;
+}
+
+#nav_right,#nav_left
+{
+	width: 10px;
+	height: 40px;	
+	float: left;
+}
+
+#nav_right{
+	background:url(../img/nav_right.jpg) ;
+}
+
+#nav_left
+{
+	background: url(../img/nav_left.jpg) no-repeat;
+}
+
+
+#nav_mid{
+	width: 980px;
+	height: 40px;
+	float: left;
+	background: url(../img/nav_bg.jpg) repeat-x;
+	display: inline;
+}
+
+#nav_mid_left li{
+	float: left;
+	margin-left: 20px;
+	line-height: 40px;
+	font: "微软雅黑" ;
+	font-size: 16px;
+	width: 100px;
+	text-align: center;
+}
+
+#nav_mid_left a:link, #nav_mid_left a:visited {
+	font-size: 16px;
+	color: #FFF;
+	text-decoration: none;
+}
+#nav_mid_left a:hover, #nav_mid_lefta:active {
+	font-size: 16px;
+	color: #FF0;
+	text-decoration: none;
+}
+#nav_mid_left{
+	700px;
+	height: 40px;
+	float: left;
+}
+
+#nav_mid_right {
+	280px;
+	height: 40px;
+	float: left;
+}
+
+#nav_mid_right input{
+	height: 30px;
+	margin-top: 3px;
+	border: 1px solid white;
+	background: url(../img/search.jpg) no-repeat right center;
+	background-color: white;
+	padding-right: 25px ;
+}
+
