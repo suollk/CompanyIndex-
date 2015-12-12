@@ -33,11 +33,13 @@ address,cite,code,em,th {font-weight:normal; font-style:normal;}
 	width: 70px;
 }
 
-#top_content li:link,#top_content li:visited{
-	color: #F5F5F5;
+#top_content a:link,#top_content a:visited{
+	text-decoration: none;
+	color: #444444;
 }
 
-#top_content li:hover,#top_content li:active{
+#top_content a:hover,#top_content a:active{
+	text-decoration: none;
 	color: #DC143C;
 }
 
@@ -139,4 +141,91 @@ address,cite,code,em,th {font-weight:normal; font-style:normal;}
 	background-color: white;
 	padding-right: 25px ;
 }
+
+.ad{
+	height: 310px;
+	overflow: hidden;
+}
+
+#main{
+	width: 1000px;
+	margin: 0 auto;
+	height: 250px;
+	background-color: white;
+	margin-top: 20px;
+}
+
+#new,#course,#slidbar{
+	height: 250px;
+	float: left;
+}
+
+#new{
+	width: 340px;
+	border: 1px #E8E8E8 solid;
+}
+
+#course{
+	width: 410px;
+	border: 1px #E8E8E8 solid;
+	margin: 0 7px;
+}
+
+#slidbar{
+	width: 230px;
+	background: #0099FF;
+}
+
+.title{
+	height: 35px;
+	border-bottom: 2px solid #E8E8E8;
+}
+
+.title_left{
+	font: "微软雅黑";
+	font-size:16px ;
+	font-weight: bold;
+	float: left;
+	line-height: 35px;
+	color: #786566;
+	width: 70%;
+	margin-left: 15px;
+}
+.title_right{
+	float: right;
+	width: 20%;
+	line-height: 35px;
+}
+
+.title_right a:link,.title_right a:visited{
+	text-decoration: none;
+	color: #786566;
+}
+.title_right a:hover,.title_right a:active{
+	text-decoration: none;
+	color: #CC0000;
+}
+
+#img_news{
+	margin-top: 5px;
+	height: 80px;
+	line-height: 17px;
+}
+
+#img_news img{
+	float: left;
+	margin: 0 5px;
+}
+
+#img_news  a{
+	text-decoration: none;
+	color: red;
+}
+
+
+
+
+
+
+
 
