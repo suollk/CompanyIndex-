@@ -44,7 +44,7 @@
 .redback {
 	width: 100px;
 	height: 70px;
-	background-color: #DA0A0A;
+	background-color: #DC143C;
 }
 
 .menu_right li a:link,
@@ -58,6 +58,18 @@
 	text-decoration: none;
 	color: red;
 }
+
+.huodong_center img{
+	margin: 20px 20px 5px;
+	width: 290px;
+	height: 120px;
+}
+
+.news_detail{
+  margin-left: 20px;
+  height: 95px;
+  font-weight: bold;	
+} 
 
 .img_ad{
 	height: 300px;
@@ -100,12 +112,18 @@
 .video_list,.news_list{
 	margin-top: 20px;
 	background-color: white;
+	clear: both;
+}
+
+.video_list ul,.news_list ul{
+	overflow: hidden;
+	margin-bottom: 10px;
 }
 
 .video_list li,.news_list li{
 	list-style: none;
 	float: left;
-	width: 330px;
+	width: 328px;
 }
 
 .video_list .imgtitle{
@@ -123,12 +141,12 @@
 	margin: 0px 5px;
 }
 
-.news_list h3{
-	width: 330px;
+.news_list h4{
+	width: 328px;
 	background-color:#DC143C ;
-	line-height: 20px;
+	line-height: 25px;
 	font-family: "微软雅黑";
-	height: 20px;
+	height: 25px;
 	font-weight: bold;
 	color: white;	
 	text-align: center;
@@ -136,9 +154,92 @@
 
 .news_list_main{
 	width: 328px;
-	height: 200px;
-	border: 1px solid #E8E8E8;
+	height: 243px;
 }
+
+.news_list_main li{
+	list-style: none;
+	height: 80px;
+	border-bottom: 1px solid #E8E8E8;
+	font-size:15px ;
+}
+
+.date{
+	text-align: center;
+	height: 60px;
+	width: 40px;
+	background-color: #DC143C;
+	color: white;
+	font-size: 18px;
+	font-family: "微软雅黑";
+    margin-right: 10px;
+	float: left;
+	border-radius: 4px;
+	clear: both;
+}
+
+.box{
+	width: 328px;
+	height: 70px;
+	margin: 5px;
+}
+
+.news_list_main li a:link,.news_list_main li a:visited{
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;	
+}
+
+.news_list_main li a:hover,.news_list_main li a:active{
+	text-decoration: none;
+	color: red;
+	font-weight: bold;	
+}
+
+.news_list_main li p{
+	margin-top: 5px;
+	line-height: 20px;
+	color: #444444;
+}
+
+.news_list_main ul{
+	height: 300px;
+}
+
+
+.another{
+	margin-top: 20px;
+}
+.call_us{
+	padding:10.5px 20px;
+}
+
+.call_us p{
+	font-family: "微软雅黑";
+	font-size:15px ;
+	font-weight: bold;
+	height: 20px;
+	line-height: 20px;
+}
+
+.waibaowei{
+	border: 1px solid #E8E8E8;
+	height: 270px;
+}
+
+#footer{
+	margin-top:40px;
+	margin: 0 auto;
+	width: 1000px;
+	background-color: #E8E8E8;
+	text-align: center;
+	height: 80px;
+	line-height: 80px;	
+}
+
+
+
+
 
 
 
